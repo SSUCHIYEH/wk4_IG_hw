@@ -1,0 +1,39 @@
+{
+    "postList": [
+        {
+            "account": "normanthepomsky",
+            "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/pomskyheadphoto.png?raw=true",
+            "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/pomsky.png?raw=true",
+            "numberoflike": "2,315 個讚",
+            "comment": "Just a friendly furry reminder to stay positive and take care of yourselves humans. ❤️",
+            "hashtag": "#stayhome #staysafe #stayhealthy #staystrong"
+
+        },
+        {
+            "account": "nico8900",
+            "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/nicoheadphoto.jpg?raw=true",
+            "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/nico.jpg?raw=true",
+            "numberoflike": "212 個讚",
+            "comment": "落ち込んでいるキキを見て急にお泊まりしちゃう所とか、明るくて元気な所とかがウルスラが好きな理由。見てる私も勇気を貰いました😊",
+            "hashtag": "#魔女の宅急便 #kikisdeliveryservice #ウルスラ #ジブリ #スタジオジブリ #ghibli #studioghibli #いいね返し #cute #fff #instagood #l4l #likeforfollow"
+
+        }
+    ],
+    "icon":[
+        {
+            "camera": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Camera.png?raw=true",
+            "comment": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/comment.png?raw=true",
+            "like": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/like.png?raw=true",
+            "message": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Message.png?raw=true",
+            "search": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/search.png?raw=true",
+            "Tag": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Tag.png?raw=true",
+            "home": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/home.png?raw=true",
+            "film": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/film.png?raw=true",
+            "edit": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/edit.png?raw=true",
+            "plus": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/plus.png?raw=true",
+            "user": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/user.png?raw=true",
+            "instagram": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Instagram.png?raw=true"
+        }
+    ]
+
+}

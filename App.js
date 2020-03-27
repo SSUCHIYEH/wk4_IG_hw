@@ -1,11 +1,23 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-export default function App() {
+import { StyleSheet, Text, View } from 'react-native';
+import HomeScreen from './src/screens/HomeScreens.js';
+import MessageScreen from './src/screens/MessageScreen.js';
+
+
+//儲存參與stack導覽的頁面
+const Stack = createStackNavigator();
+
+function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+   <NavigationContainer>
+     <Stack.Navigator>
+      <Stack.Screen name="Home" component = {HomeScreen}/>
+      <Stack.Screen name="Message" component = {MessageScreen}/>
+     </Stack.Navigator>
+   </NavigationContainer>
   );
 }
 
@@ -17,3 +29,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default App;
