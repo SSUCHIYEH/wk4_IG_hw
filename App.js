@@ -39,6 +39,7 @@ function App() {
         options={{ 
           headerLeft: props => <LeftTitle {...props} /> ,
           headerTitle: props => <LogoTitle {...props} /> ,
+          headerStyle: {height:80},
           headerRight: () => (
             <TouchableOpacity  
             onPress={()=>stackref.current?.navigate('Direct')}>

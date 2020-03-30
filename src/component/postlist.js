@@ -3,8 +3,8 @@ import {View, Image, Text, StyleSheet,TouchableOpacity} from "react-native";
 
 const PostDetail = ({post, navigation}) => {
     return (
-        <View style={styles.cardContainerStyle}>
-            <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
+        <View >
+            <View style={styles.thumbnailContainerStyle}>
                 <Image
                     style={styles.thumbnailStyle}
                     source={{
