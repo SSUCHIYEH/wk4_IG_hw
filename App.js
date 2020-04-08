@@ -29,7 +29,7 @@ function Backarrow() {
   return (
     <Image
       style={styles.HomeLeftLogo}
-      source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Camera.png?raw=true"}}
+      source={{uri: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1MTInIGhlaWdo%0D%0AdD0nNTEyJyB2aWV3Qm94PScwIDAgNTEyIDUxMic+PHRpdGxlPmlvbmljb25zLXY1LWE8L3RpdGxl%0D%0APjxwb2x5bGluZSBwb2ludHM9JzI0NCA0MDAgMTAwIDI1NiAyNDQgMTEyJyBzdHlsZT0nZmlsbDpu%0D%0Ab25lO3N0cm9rZTojMDAwO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3Vu%0D%0AZDtzdHJva2Utd2lkdGg6NDhweCcvPjxsaW5lIHgxPScxMjAnIHkxPScyNTYnIHgyPSc0MTInIHky%0D%0APScyNTYnIHN0eWxlPSdmaWxsOm5vbmU7c3Ryb2tlOiMwMDA7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7%0D%0Ac3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDo0OHB4Jy8+PC9zdmc+"}}
     />
   );
 }
