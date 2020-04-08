@@ -28,8 +28,11 @@ const MessageScreen = ({navigation}) => {
             />
 
         <View style={styles.tabbottom}>
-            
-            <Text style={{color:'#2389CA'}}>相機</Text>
+            <Image
+                source={{uri :"https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/bluecamera.png?raw=true"}}
+                style={styles.tabimg}
+            />
+            <Text style={{color:'#2389CA',marginLeft:12,marginTop:4,fontWeight:'bold'}}>相機</Text>
         </View>
         </View>
         
@@ -57,7 +60,17 @@ const styles = StyleSheet.create({
         justifyContent:"flex-start",
         backgroundColor:'#FBFBFB',
         height:48,
-        width:360
+        width:360,
+        paddingLeft:143,
+        paddingTop:12,
+        shadowColor: '#000',
+        shadowOffset: {width: 0,height: 10},
+        shadowOpacity: 1.0,
+        elevation: 20
+    },
+    tabimg:{
+        width:24,
+        height:24
     }
 
 })
