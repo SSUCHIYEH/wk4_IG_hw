@@ -1,12 +1,13 @@
 import React from "react";
-import {View, FlatList ,TouchableOpacity } from "react-native"
+import {View, FlatList ,Image, Text ,ScrollView} from "react-native"
 import PostDetail from "../component/postlist.js"
 import PostData from "../json/post.json"
 
 const HomeScreen = ({navigation}) => {
     
     return (
-        <View style={{flex:1}}>
+        <View style={{flex:1,backgroundColor:'#ffffff'}}>
+            
             <FlatList 
                 data = {PostData.postList}
                 renderItem = {({item}) =>

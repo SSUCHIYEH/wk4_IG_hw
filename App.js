@@ -12,7 +12,7 @@ function LogoTitle() {
   return (
     <Image
       style={styles.HomeHeaderLogo}
-      source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Instagram.png?raw=true"}}
+      source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/ig.jpg?raw=true"}}
     />
   );
 }
@@ -23,6 +23,24 @@ function LeftTitle() {
       source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Camera.png?raw=true"}}
     />
   );
+}
+function DirectRight() {
+  return(
+    <View style={{flexDirection: "row",
+                  justifyContent: "flex-start"
+          }}
+    >
+      <Image
+         style={{height:30,width:28,marginRight:24}}
+         source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/film.png?raw=true"}}
+      />
+      <Image
+        style={{height:25,width:25,marginRight:12}}
+        source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/edit.png?raw=true"}}
+      />
+    </View>
+  );
+
 }
 
 //儲存參與stack導覽的頁面
@@ -39,7 +57,8 @@ function App() {
         options={{ 
           headerLeft: props => <LeftTitle {...props} /> ,
           headerTitle: props => <LogoTitle {...props} /> ,
-          headerStyle: {height:80},
+          headerStyle: {height:80,backgroundColor:'#F8F8F8'},
+          HeaderLeftStyle : {marginRight:0},
           headerRight: () => (
             <TouchableOpacity  
             onPress={()=>stackref.current?.navigate('Direct')}>
@@ -53,7 +72,12 @@ function App() {
             )
         }} 
       />
-      <Stack.Screen name="Direct" component = {MessageScreen}/>
+      <Stack.Screen name="Direct" component = {MessageScreen}
+                    options={{
+                      headerRight: props => <DirectRight {...props}/>,
+                      headerStyle: {backgroundColor:'#F2F2F2'}
+                    }}
+      />
      </Stack.Navigator>
    </NavigationContainer>
   );
@@ -67,18 +91,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   HomeHeaderLogo: {
-    height: 42,
-    width: 109
+    height: 26,
+    width: 90,
+    marginLeft:-24,
+    marginTop:5
   },
   HomeLeftLogo: {
     height: 24,
     width: 24,
-    paddingRight: -16
+    marginLeft:12
   },
   HeaderRightStyle: {
-    height: 24,
+    height: 24, 
     width: 24,
-    marginRight: 16
+    marginRight: 12
   }
 });
 

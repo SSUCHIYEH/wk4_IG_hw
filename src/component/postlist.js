@@ -52,6 +52,12 @@ const PostDetail = ({post, navigation}) => {
             />
             </View>
             
+            <View style={styles.textsection}>
+                <Text style={{fontWeight:'bold'}}>{post.numberoflike}</Text>
+                <Text style={{width:331}}>{post.account}{post.comment}</Text>
+                
+            </View>
+            
         </View>
 )};
 
@@ -61,12 +67,24 @@ const styles = StyleSheet.create({
         justifyContent: "flex-start",
         height: 56
     },
+    likesection:{ 
+        flexDirection: "row",
+        justifyContent: "flex-start"
+    },
+    textsection:{
+       paddingLeft:12,
+       marginBottom:16
+    },
     thumbnailStyle: {
         height: 32,
         width: 32,
         borderRadius:20,
         marginLeft:12,
         marginTop:12
+    },
+    likehead:{
+        height:16,
+        width:16
     },
     headerContainerStyle: {
         flexDirection: "column",
@@ -75,24 +93,25 @@ const styles = StyleSheet.create({
         
     },
     accountnamestyle : {
-        fontSize: 16
+        fontSize: 15,
+        fontWeight:'800'
     },
     toolcolumnstyle:{
         flexDirection: "row",
         justifyContent: "flex-start",
         height: 48,
-        paddingLeft:16,
+        paddingLeft:12,
         paddingTop:12
     },
     tooliconstyle:{
         width:24,
         height:24,
-        marginRight:24
+        marginRight:19
     },
     thelasttooliconstyle:{
         width:30,
         height:29,
-        marginLeft:160
+        marginLeft:180
     },
     imageStyle: {
         width: null,

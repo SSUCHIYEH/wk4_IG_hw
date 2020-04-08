@@ -11,7 +11,7 @@ const MessageList = ({post, navigation}) => {
                          uri: post.headphoto
                      }}
                 />
-                <View>
+                <View style={{width:246,height:57}}>
                     <Text style={styles.messagename}>{post.account}</Text>
                     <Text style={styles.messagecomment}>{post.comment}</Text>
                 </View>
@@ -27,17 +27,19 @@ const MessageList = ({post, navigation}) => {
 };
 
 const styles = StyleSheet.create({
+    
     thumbnailContainerStyle: {
         flexDirection: "row",
         justifyContent: "flex-start",
-        height: 72,
-        paddingTop:16
+        height: 83,
+        paddingTop:13,
+        
     },
     thumbnailStyle: {
-        height: 40,
-        width: 40,
-        marginLeft: 24,
-        borderRadius:20
+        height: 57,
+        width: 57,
+        marginLeft: 12,
+        borderRadius:35
  
     },
     headerContainerStyle: {
@@ -47,12 +49,14 @@ const styles = StyleSheet.create({
         
     },
     messagename:{
+        marginTop:10,
         marginLeft: 24,
         fontSize:14
     },
     messagecomment:{
         marginLeft: 24,
-        fontSize:12
+        fontSize:12,
+        color:'#989898'
     },
     accountnamestyle : {
         fontSize: 16
@@ -63,12 +67,14 @@ const styles = StyleSheet.create({
         justifyContent: "flex-start",
         height: 48,
         paddingLeft:16,
-        paddingTop:12
+        paddingTop:10
     },
     tooliconstyle:{
-        width:24,
-        height:24,
-        marginRight:24
+        width:26,
+        height:26,
+        marginRight:24,
+        marginTop:15
+
     },
     thelasttooliconstyle:{
         width:30,
