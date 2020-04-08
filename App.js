@@ -16,7 +16,16 @@ function LogoTitle() {
     />
   );
 }
+
 function LeftTitle() {
+  return (
+    <Image
+      style={styles.HomeLeftLogo}
+      source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/Camera.png?raw=true"}}
+    />
+  );
+}
+function Backarrow() {
   return (
     <Image
       style={styles.HomeLeftLogo}
@@ -75,7 +84,8 @@ function App() {
       <Stack.Screen name="Direct" component = {MessageScreen}
                     options={{
                       headerRight: props => <DirectRight {...props}/>,
-                      headerStyle: {backgroundColor:'#F2F2F2'}
+                      headerStyle: {height:80,backgroundColor:'#F2F2F2'},
+                      headerBackImage: props => <Backarrow {...props}/>
                     }}
       />
      </Stack.Navigator>
