@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StyleSheet, Text, View,Image ,TouchableOpacity } from 'react-native';
 import HomeScreen from './src/screens/HomeScreens.js';
 import MessageScreen from './src/screens/MessageScreen.js';
