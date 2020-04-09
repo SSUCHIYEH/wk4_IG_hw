@@ -35,7 +35,27 @@
             "comment": "上線中",
             "time":""
 
+        },
+        {
+            "account":"sandy_fitness",
+            "headphoto":"https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/sandyheadphoto.png?raw=true",
+            "comment":"2小時前上線",
+            "time":""
+        },
+        {
+            "account":"dualipa",
+            "headphoto":"https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/dualipaheadphoto.png?raw=true",
+            "comment":"Let's get phisycal • ",
+            "time":"2天"
+        },
+        {
+            "account":"itsan9lina",
+            "headphoto":"https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/itsan9linaheadphoto.png?raw=true",
+            "comment":"再不回我啊 • ",
+            "time":"8個月前"
         }
+        
+
 
         
     ]
