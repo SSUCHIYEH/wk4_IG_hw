@@ -3,28 +3,40 @@
         {
             "account": "normanthepomsky",
             "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/pomskyheadphoto2.png?raw=true",
-            "comment": "1小時前上線"
+            "comment": "1小時前上線",
+            "time":""
             
+
+        },
+        {
+            "account": "albada0116",
+            "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/albada.png?raw=true",
+            "comment": "我要用我家文鳥做羽毛球 • ",
+            "time": "1天"
 
         },
         {
             "account": "nico8900",
             "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/nicoheadphoto.jpg?raw=true",
-            "comment": "今天上線"
+            "comment": "今天上線",
+            "time": ""
 
         },
         {
             "account": "jia_0623_jia",
             "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/jiaheadphoto.png?raw=true",
-            "comment": "怒 3天"
+            "comment": "怒 • ",
+            "time":"3天"
 
         },
         {
             "account": "siny1029",
             "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/sinyiheadphoto.png?raw=true",
-            "comment": "上線中"
+            "comment": "上線中",
+            "time":""
 
         }
+
         
     ]
 

@@ -16,14 +16,14 @@ const PostDetail = ({post, navigation}) => {
                 </View>
             </View>
             <View style={styles.cardSectionStyle}>
-                <TouchableOpacity  onPress={()=>navigation.navigate('Direct')}>
+               
                     <Image
                         style={styles.imageStyle}
                         source={{
                             uri: post.postphoto
                         }}
                     />
-                </TouchableOpacity>
+                
             </View>
             <View style={[styles.toolcolumnstyle ]}>
             <Image
@@ -54,7 +54,10 @@ const PostDetail = ({post, navigation}) => {
             
             <View style={styles.textsection}>
                 <Text style={{fontWeight:'bold'}}>{post.numberoflike}</Text>
-                <Text style={{width:331}}>{post.account}{post.comment}</Text>
+                <Text style={{width:331}}><Text style={{fontWeight:'bold'}}>{post.account}</Text>{post.comment}</Text>
+                <Text style={{color:'#989898'}}>{post.below}</Text>
+                <Text style={{fontSize:12}}><Text style={{color:'#989898'}}>{post.time}</Text>{post.translate}</Text>
+                
                 
             </View>
             
@@ -94,7 +97,8 @@ const styles = StyleSheet.create({
     },
     accountnamestyle : {
         fontSize: 15,
-        fontWeight:'800'
+        fontWeight:'700',
+        fontFamily:'Roboto'
     },
     toolcolumnstyle:{
         flexDirection: "row",

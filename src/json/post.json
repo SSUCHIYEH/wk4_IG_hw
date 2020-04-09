@@ -6,7 +6,9 @@
             "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/pomsky.png?raw=true",
             "numberoflike": "2,315個讚",
             "comment": " Just a friendly furry reminder to stay positive and take care of yourselves humans. ❤️",
-            "time": "45分鐘前 翻譯年糕"
+            "below":"查看所有留言",
+            "time": "45分鐘前 • ",
+            "translate":"翻譯年糕"
 
         },
         {
@@ -15,24 +17,30 @@
             "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/nico.jpg?raw=true",
             "numberoflike": "11,107個讚",
             "comment": " 落ち込んでいるキキを見て急にお泊まりしちゃう所とか、明るくて元気な所とかがウルスラが好きな理由。見てる私も勇気を貰いました😊",
-            "time": "5小時前 翻譯年糕"
+            "below":"查看所有留言",
+            "time": "5小時前 • ",
+            "translate":"翻譯年糕"
 
         },
         {
             "account": "albada0116",
-            "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/nicoheadphoto.jpg?raw=true",
-            "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/nico.jpg?raw=true",
+            "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/albada.png?raw=true",
+            "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/albada.png?raw=true",
             "numberoflike": "116個讚",
             "comment": " 啾啾啾 拉基人類",
-            "hashtag": "1天前 翻譯年糕"
+            "below":"查看所有留言",
+            "time": "1天前 • ",
+            "translate":"翻譯年糕"
         },
         {
             "account": "dualipa",
-            "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/nicoheadphoto.jpg?raw=true",
-            "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/nico.jpg?raw=true",
+            "headphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/headphoto/dualipaheadphoto.png?raw=true",
+            "postphoto": "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/post/dualipa.png?raw=true",
             "numberoflike": "130.5萬個讚",
             "comment": " BMH 💔 IS OUT NOW! NEW MERCH + VIDEO COMING TMRW! Swipe for times‼️‼️",
-            "time": "1週前 翻譯年糕"
+            "below":"查看所有留言",
+            "time": "1週前 • ",
+            "translate":"翻譯年糕"
 
         }
         

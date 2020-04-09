@@ -40,7 +40,7 @@ function DirectRight() {
           }}
     >
       <Image
-         style={{height:30,width:28,marginRight:24}}
+         style={{height:28,width:28,marginRight:24}}
          source={{uri: "https://github.com/tsaiyuyes7/wk4_IG_hw/blob/master/assets/icon/film.png?raw=true"}}
       />
       <Image

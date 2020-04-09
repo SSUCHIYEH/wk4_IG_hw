@@ -13,7 +13,7 @@ const MessageList = ({post, navigation}) => {
                 />
                 <View style={{width:246,height:57}}>
                     <Text style={styles.messagename}>{post.account}</Text>
-                    <Text style={styles.messagecomment}>{post.comment}</Text>
+                    <Text style={styles.messagecomment}>{post.comment}<Text style={{fontWeight:'bold'}}>{post.time}</Text></Text>
                 </View>
                 <Image
                     style={styles.tooliconstyle}
@@ -57,6 +57,7 @@ const styles = StyleSheet.create({
         marginLeft: 24,
         fontSize:12,
         color:'#989898'
+        
     },
     accountnamestyle : {
         fontSize: 16
